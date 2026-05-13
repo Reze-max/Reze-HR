@@ -66,7 +66,7 @@ def save_data_to_database(data):
 # =====================================================
 # 1. DeepSeek 配置（完全没动）
 # =====================================================
-DEEPSEEK_API_KEY = ""
+DEEPSEEK_API_KEY = "sk-b11f07718e2745aa8c12eb817ff9fa64"
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", DEEPSEEK_API_KEY)
 
 client = OpenAI(
