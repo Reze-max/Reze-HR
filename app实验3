@@ -34,7 +34,7 @@ def save_data_to_database(data):
     try:
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
-        repo = g.get_repo("liuqingya807-design/SeedAI-Experiment")
+        repo = g.get_repo("Reze-max/Reze-HR")
         path = "experiment_data.csv"
 
         try:
@@ -144,10 +144,10 @@ if st.query_params.get("page") == "questionnaire":
 
 
 RESUME_IMAGES = [
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历1.jpg",
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历2.jpg",
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历3.jpg",
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历4.jpg"
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历1.jpg",
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历2.jpg",
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历3.jpg",
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历4.jpg"
 ]
 
 
