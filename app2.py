@@ -263,7 +263,7 @@ if "consent" not in st.session_state:
 - 所有数据仅用于学术研究，不会泄露任何个人信息
 
 点击下方按钮，即表示您已阅读并同意以上说明，自愿参与本次实验。
-    """)
+    """, unsafe_allow_html=True)
     if st.button("我已阅读并同意，进入实验"):
         st.session_state["consent"] = True
         st.rerun()
