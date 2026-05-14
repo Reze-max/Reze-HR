@@ -216,8 +216,8 @@ st.markdown("""
 if st.query_params.get("page") == "questionnaire":
     st.title("📋 调查问卷")
     st.markdown("---")
-    st.markdown("""
-    ### 亲爱的参与者：
+    st.markdown(f"""
+    ### 亲爱的用户 (ID: {st.session_state.user_id}):
 
     感谢您完成本次实验！
 
