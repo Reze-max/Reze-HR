@@ -44,7 +44,7 @@ def save_data_to_database(data):
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
         # 已填好你的仓库！
-        repo = g.get_repo("liuqingya807-design/SeedAI-Experiment")
+        repo = g.get_repo("Reze-max/Reze-HR")
         path = "experiment4_data.csv"
 
         try:
@@ -270,16 +270,16 @@ if "consent" not in st.session_state:
 
 # 直接配置 DeepSeek 接口
 client = OpenAI(
-    api_key="xx",
+    api_key="sk-b11f07718e2745aa8c12eb817ff9fa64",
     base_url="https://api.deepseek.com"
 )
 
 # 简历图片链接
 RESUME_IMAGES = [
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历1.jpg",
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历2.jpg",
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历3.jpg",
-    "https://raw.githubusercontent.com/liuqingya807-design/SeedAI-Experiment/main/简历4.jpg"
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历1.jpg",
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历2.jpg",
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历3.jpg",
+    "https://raw.githubusercontent.com/Reze-max/Reze-HR/main/简历4.jpg"
 ]
 
 # 初始化实验数据
