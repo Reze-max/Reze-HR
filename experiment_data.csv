@@ -1,0 +1,14 @@
+user_id,group,total_turns,first_intervene_turn,total_intervene_count,user_answer,full_dialogue
+user_254325,high,3,0,0,录取：候选人1 | 专业： | 算法能力： | 项目经验：,"[用户]:                                                                                                                                                                啊水水
+
+[AI]: API调用失败: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+
+[用户]: 阿斯顿撒da
+
+[AI]: API调用失败: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+
+[用户]: 撒大苏打
+
+[AI]: API调用失败: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+
+"
