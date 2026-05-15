@@ -133,12 +133,12 @@ st.markdown("""
 /* 成功提示框样式（用于导出完成后的提示） */
 .st-key-seed_nudge_fixed_area .stSuccess {
     margin: 0 0 1px 0 !important;
-    padding: 4px 12px !important;
+    padding: 2px 8px !important;
     border-radius: 4px !important;
     border: none !important;
     box-shadow: none !important;
     background: #d4edda !important;
-    min-height: 36px !important;
+    min-height: 28px !important;
 }
 
 .st-key-seed_nudge_fixed_area .stSuccess p {
